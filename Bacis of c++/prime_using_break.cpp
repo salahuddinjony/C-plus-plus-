@@ -19,6 +19,9 @@ if (n==i)
 {
     cout<<"Prime"<<endl;
 }
+else{
+    cout<<"Not prime"<<endl;
+}
 
 
 return 0;
