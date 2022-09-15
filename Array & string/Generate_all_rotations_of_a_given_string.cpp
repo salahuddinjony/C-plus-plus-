@@ -19,14 +19,12 @@ void printRotatedString(string str)
 
 		// Copying the second part from the point
 		// of rotation.			 01234
-		while (str[j] != '\0') //geeks
+		while (str[j] != '\0') //geeks eeksg eksge ksgee sgeek
 		{
 			temp[k] = str[j]; 
 			k++;
 			j++;
 		}
-
-		
 
 		// Copying the first part from the point
 		// of rotation.
@@ -38,7 +36,7 @@ void printRotatedString(string str)
 			k++;
 		}
 
-		printf("%s\n", temp);
+		cout<<temp<<endl;
 	}
 }
 
