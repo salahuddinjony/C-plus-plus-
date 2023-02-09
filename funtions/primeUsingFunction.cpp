@@ -18,7 +18,7 @@ int main(){
     cin>>a>>b;
     for (int i =a; i <=b; i++)
     {
-        if(prime(i)){
+        if(prime(i)){  //when prime(i)==true then it will be print i
             cout<<i<<endl;
         }
     }
