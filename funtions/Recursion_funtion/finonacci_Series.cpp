@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int fibo(int z);
+int fibo(int z); //function prototype
+
+
 int main(){
 
     int n;
@@ -16,6 +18,7 @@ int main(){
 int fibo(int z){
 
     if(z==1){
+        
         return 0;
     }
     else if (z==2 or z==3)

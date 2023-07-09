@@ -23,6 +23,7 @@ bool check(int x,int y,int z){
 
         return true;
     }
+    
     else{
         return false;
     }
