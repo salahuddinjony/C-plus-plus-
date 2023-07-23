@@ -1,22 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
-int binaryTodecimal(int n){
+int decimalTobinary(int n){
     int x=1;
     int ans=0;
     while (x<=n){
         x*=2;
 
     }
-        
-
     x/=2;
 
     while (x>0)
     {
-        int lastdigit=n/x;
-        n-=lastdigit*x;
-        x/=2;
-        ans=ans*10+lastdigit;
+        int lastdigit=n/x; //1 0 0 0
+        n-=lastdigit*x;//0 0 0
+        x/=2; //4 2 1 0
+        ans=ans*10+lastdigit; //1000
         
     }
     
@@ -26,7 +24,7 @@ int binaryTodecimal(int n){
 int main(){
     int n;
     cin>>n;
-    int result=binaryTodecimal(n);
+    int result=decimalTobinary(n);
     cout<<result<<endl;
 
 }
