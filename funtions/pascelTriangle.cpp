@@ -17,7 +17,7 @@ int main(){
     {
         for (int j = 0; j <=i; j++)
         {
-            int ans=fact(i)/(fact(j)*fact(i-j));
+            int ans=fact(i)/(fact(j)*fact(i-j));  // n!/(r!*(n-r)!)
             cout<<ans<<" ";
         }
         cout<<endl;
