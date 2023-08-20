@@ -14,7 +14,6 @@ int main(){
         currentSum=0;
         for (int j=i; j<n; j++)
         {
-            int store[n]; 
             currentSum+=a[j];
             cout<<currentSum<<" ";
         }
