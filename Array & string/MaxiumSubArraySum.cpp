@@ -5,7 +5,6 @@ int main(){
     int n;
     cin>>n;
     int a[n];
-    cout<<"The array is:";
     for (int i = 0; i <n; i++)
     {
        cin>>a[i];
@@ -27,7 +26,7 @@ int main(){
         
     }
 
-    cout<<"The max sub array sum is: "<<mxSum<<endl;
+    cout<<mxSum<<endl;
     
     
 }
