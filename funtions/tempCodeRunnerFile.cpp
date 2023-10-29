@@ -1,1 +1,1 @@
- sum+=t;
+ cout<<"The sum of 3 and 6 is "<<sum(3,6)<<endl;
