@@ -53,7 +53,6 @@ cout<<"The value of y is "<<(int)s<<endl;
 
 
 
-
     
 
   
