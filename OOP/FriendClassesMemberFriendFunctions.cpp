@@ -11,6 +11,7 @@ public:
     {
         return (a + b);
     }
+    //funtions memeber of Calculator
     int sumRealComplex(Complex, Complex);
     int sumComComplex(Complex, Complex);
 };
@@ -37,10 +38,10 @@ public:
     }
 };
 
-int Calculator ::sumRealComplex(Complex o1, Complex o2)
+int Calculator ::sumRealComplex(Complex f1, Complex f2)
 {
 
-    return (o1.a + o2.a);
+    return (f1.a + f2.a);
 }
 int Calculator ::sumComComplex(Complex o1, Complex o2)
 {
