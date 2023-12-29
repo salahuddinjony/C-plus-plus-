@@ -17,7 +17,7 @@ Complex :: Complex(int x, int y){  //This is a perameterized constructor as it a
 }
 int main(){
 
-    // Impicit call
+    // Implicit call
     Complex c1(2,3);
     c1.printNumber();
 

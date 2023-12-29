@@ -10,7 +10,7 @@ class Employee{
     public:
         int d, e;
         
-        void SetData(int a1 , int b1 , int c1); //declaration //Memeber functions
+        void SetData(int a1 , int b1 , int c1); //declaration Memeber functions
         void GetData(){
         cout<<"The value of a is: "<<a<<endl;
         cout<<"The value of b is: "<<b<<endl;
