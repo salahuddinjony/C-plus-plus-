@@ -16,6 +16,7 @@ public:
     void get_simple_value();
 };
 
+
 void SimpleCal :: get_simple_value()
 {
     cout << "The add is: " << a + b << endl;
