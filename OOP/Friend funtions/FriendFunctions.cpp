@@ -9,7 +9,7 @@ class Complex
 {
     int a, b;
     // Below line means that non member - sumComplex funtion is allowed to do anything with my private parts (members)
-    friend Complex sumComplex(Complex o1, Complex o2); // declare the friend function of sumplex inside Complex class(can declare private of public section)
+    friend Complex sumComplex(Complex, Complex); // declare the friend function of sumplex inside Complex class(can declare private of public section)
 
 public:
     void setNumber(int n1, int n2)
@@ -22,7 +22,7 @@ public:
         cout << "Your number is " << a << " + " << b << "i" << endl;
     }
 };
-//Friend function
+//Friend functions
 Complex sumComplex(Complex o1, Complex o2)
 {
     Complex o3;

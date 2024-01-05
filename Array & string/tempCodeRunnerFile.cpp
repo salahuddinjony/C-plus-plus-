@@ -1,1 +1,2 @@
-char temp[len];
+ cout<<"Enter a number: ";
+    cin>>n;
