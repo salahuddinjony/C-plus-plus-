@@ -12,7 +12,7 @@ Case2:
 class A: public B, public C{
     // Order of execution of constructor -> B() then C() and A()
 };
-
+s
 Case3:
 class A: public B, virtual public C{
     // Order of execution of constructor -> C() then B() and A()
@@ -23,6 +23,7 @@ class A: public B, virtual public C{
 class Base1{
     int data1;
     public:
+        //Constructor of Base1
         Base1(int r){
             data1=r;
             cout<<"Base1 class constructor called"<<endl;
@@ -34,6 +35,7 @@ class Base1{
 class Base2{
     int data2;
     public:
+        //Constructor of Base2
         Base2(int r){
             data2=r;
             cout<<"Base2 class constructor called"<<endl;

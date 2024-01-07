@@ -12,6 +12,7 @@ int main(){
 
 int a=3;
 int* b=&a;
+cout<<b<<endl;
 
 // & address of operator
 
@@ -25,7 +26,7 @@ cout<<"The address of a is "<<*b<<endl;  //retuen value of a
 
 //pointer to pointer 
 
-int** c=&b;
+int** c=&b; //pointer to pinter thats why we use two (**) star
 
 cout<<"The address of b is "<<&b<<endl; 
 cout<<"The address of b is "<<c<<endl;
