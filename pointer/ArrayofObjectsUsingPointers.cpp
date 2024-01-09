@@ -28,7 +28,7 @@ int main()
     // Veggies item
     // Hardware item
     /* 
-    
+
     1   2   3
             ^
             |
@@ -48,7 +48,7 @@ int main()
         cin >> p >> q;
         // (*ptr).setData(p,q);
         ptr->setData(p, q); // also we can use arrow operator
-        ptr++;
+        ptr++;  
        
     }
     for ( i = 0; i < size; i++)
