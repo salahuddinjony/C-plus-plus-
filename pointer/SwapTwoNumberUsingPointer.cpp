@@ -1,18 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+What is pointer?
+-->Pointers are variables that store 
 
-/* 
-
-My Rules of understanding pointers:-
-    '&'             -  this will return an address of any variable or things.
-    '*'             -  this will dereference an address
-    'int *'         -  this will make a pointer variable
-    'variable_name' -  this will return value of a 'variable_name' 
-Example:-
-   swap(a,b) - Call by value
-   swap(&a,&b) - Call by reference
-
-*/
 
 void exchange(int *x,int *y){ //point the addresses of a and b with x and y
     int temp=*x;
