@@ -33,11 +33,6 @@ int main(){
     derived_class_pointer->var_base=3700;
     derived_class_pointer->Display();
 
-
-
-    
-
-
     return 0;
 }
 
