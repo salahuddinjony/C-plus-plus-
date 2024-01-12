@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+ Structure is a collection of variables of different data types under 
+a single name. It is similar to a class in that, both holds a collecion 
+of data of different data types. 
+*/
+
+
 struct Person  //declare a strucutre name of person
 {
     char name[50];

@@ -1,0 +1,4 @@
+This is sample of read operation!
+a
+b
+c
