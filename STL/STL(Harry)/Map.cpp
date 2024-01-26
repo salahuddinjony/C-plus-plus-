@@ -3,6 +3,7 @@ using namespace std;
 //Map is an associative array 
 // map::insert({key, element}) 
 // map(key, element) 
+
 int main(){
     map<string,int> marksMap;
     marksMap["salah"]=30;

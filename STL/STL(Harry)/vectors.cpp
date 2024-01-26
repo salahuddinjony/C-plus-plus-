@@ -12,8 +12,8 @@ void display(vector<T> &v){
 }
 int main(){
     vector<int> vec1;     //zero length integer vector
-    vector<int> vec2(3);  //3-element character vector
-    vector<int> vec3(vec2);//3-element character vector from vec2
+    vector<int> vec2(3);  //3-element int vector
+    vector<int> vec3(vec2);//3-element int vector from vec2
     vector<int> vec4(6,3); //6-element vector of 3s
 
     vec2.push_back(3);
