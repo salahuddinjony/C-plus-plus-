@@ -11,6 +11,19 @@ void display(vector<int> &v){
     
 }
 int main(){
+        
+    /* vector<int>v;
+    for (int i=0;i<4;i++)
+    {
+        int x;
+        cin>>x;
+        v.push_back(x);
+    }
+    for (int var : v)
+    {
+       cout<<var;
+    }
+     */
     vector<int>v;
     v.push_back(4);
     v.push_back(5);

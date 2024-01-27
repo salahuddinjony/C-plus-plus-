@@ -13,11 +13,11 @@ void display(vector<int> &v){
 int main(){
     vector< vector<int> >v;
     int N;
-    cin>>N;
+    cin>>N; //Number's of vector's vector
     for (int i = 0; i < N; i++)
     {
         int n;
-        cin>>n;
+        cin>>n; //number of elements
         vector<int>temp; 
         //v.push_back(vector<int>());
         for (int j = 0; j <n; j++)
@@ -25,7 +25,7 @@ int main(){
             int x;
             cin>>x;
             temp.push_back(x); //(for vector<int>temp;)->store an element to temp vector
-            v[i].push_back(x); //if we use v.push_back(vector<int>());
+            //v[i].push_back(x); //if we use v.push_back(vector<int>());
         }
         v.push_back(temp); //store a vector to v vector
         

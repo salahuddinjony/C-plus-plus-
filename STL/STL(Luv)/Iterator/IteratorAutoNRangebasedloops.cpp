@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+
+    
     vector<int>v={2,3,1,4,7,9};
 
     //Rnage for loop
@@ -31,7 +33,7 @@ int main(){
     for (auto it=vec.begin(); it!=vec.end();it++ )
     {
         cout<<*(it)<<" ";
-    }
+    } 
     
     return 0;
 }
