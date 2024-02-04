@@ -7,6 +7,7 @@ void display(set<string> &s){
     for(auto &value : s ){
         cout<<value<<endl;
     }
+
     /*
     //also uese iterator
     for (auto it =s.begin(); it!=s.end(); it++)
@@ -25,9 +26,10 @@ int main(){
    auto it= s.find("abc"); //O(log(n))
    if(it!=s.end()){
     // cout<<(*it)<<"\n"<<endl;
-    s.erase(it);
-    //s.erase("abc");
+    //s.erase(it);
+    
    }
+   s.erase("abcx");
    display(s);
 
 
