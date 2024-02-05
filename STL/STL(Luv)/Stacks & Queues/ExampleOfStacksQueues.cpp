@@ -4,8 +4,8 @@ using namespace std;
 To use Stacks & Queues 
 1.Check balanced parenthesis ([()])
 2. Next greater elements(NGE)
-
 */
+
 int main(){
     //stack(LIFO)
        cout<<"Example of STACK"<<endl;
