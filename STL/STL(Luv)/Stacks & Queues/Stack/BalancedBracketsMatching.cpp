@@ -21,7 +21,7 @@ string isBlanced(string s){
             st.push(Bracket);
         }else{
             if(st.empty()) return "NO";
-            char top=st.top();
+            char top=st.top(); 
             st.pop();
             if(symbol[top]+symbol[Bracket]!=0)return "NO";
         }
