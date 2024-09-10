@@ -5,7 +5,7 @@ using namespace std;
     ios_base::sync_with_stdio(0); \
     cin.tie(0);                   \
     cout.tie(0);
-
+ 
 const int N = 1005;  // N is limited to 1000 based on the problem constraints
 int a[N][N];
 long long twoDprefix[N][N];  // Use long long to handle large sums
