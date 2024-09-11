@@ -22,7 +22,7 @@ int main(){
     auto Upperit=upper_bound(v.begin(),v.end(),26);
     if(Lowerit==v.end()){
         cout<<"Lower bound,not found!"<<endl;
-    }e   lse cout<<(*Lowerit)<<endl;
+    }else cout<<(*Lowerit)<<endl;
     if(Upperit==v.end()){
         cout<<"Upper bound,not found!"<<endl;
     }else cout<<(*Upperit)<<endl;

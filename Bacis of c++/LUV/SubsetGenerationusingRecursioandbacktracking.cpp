@@ -12,7 +12,6 @@ void generate(vector<int>& subset, int i, vector<int>& nums) {
 
     // Case 1: Do not include the i-th element in the subset
     generate(subset, i + 1, nums);
-
     // Case 2: Include the i-th element in the subset
     subset.push_back(nums[i]);
     generate(subset, i + 1, nums);
